@@ -1,0 +1,104 @@
+\* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f2e9e2;
+  height: 100vh;
+}
+
+.wrapper {  
+  width: 700px;
+  height: 500px;
+  margin: 120px auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.image {
+  width: 350px;
+  height: 500px;
+  border-radius: 10px 0px 0px 10px;
+  position: absolute;
+}
+
+.description {
+  width: 400px;
+  height: 600px;
+  display: inline-block;
+  margin-left: 380px;
+  margin: 40px 200px 40px 400px;
+}
+
+.perfume {
+  color: #00000099;
+  letter-spacing: 8px;
+  font-family: "Outfit", sans-serif;
+}
+
+.heading {
+  margin-right: 210px;
+  font-family: "Outfit", sans-serif;
+  margin-top: 30px;
+}
+
+.text {
+  margin-right: 170px;
+  margin-top: 30px;
+  /* word-spacing: 2px; */
+  font-family: "Outfit", sans-serif;
+  color: #0000006b;
+  margin-bottom: 10px;
+}
+
+.price {
+  display: inline;
+  margin-top: 10px;
+  font-family: "Outfit", sans-serif;
+  color: #3d8168;
+  font-size: 48px;
+  vertical-align: middle;
+}
+
+.old-price {
+  display: inline;
+  font-family: "Outfit", sans-serif;
+  color: #0000006b;
+  margin-left: 20px;
+  vertical-align: middle;
+
+}
+
+.button {
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  width: 255px;
+  height: 50px;
+  background-color: #387760;
+  color: #d8faee;
+}
+
+.btn-text {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  margin-left: 2px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.icon {
+  display: inline;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
+.button:hover {
+  background-color: #1b3f31;
+  cursor: pointer;
+  transition: 0.8s ease;
+}
